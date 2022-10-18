@@ -11,4 +11,7 @@
     <string name="settings">Settings</string>
     <string name="favorites">Favorites</string>
     <string name="title_favorite">Favorite</string>
+    <string name="company">company</string>
+    <string name="location">location</string>
+    <string name="following_and_followers">following And Followers</string>
 </resources>

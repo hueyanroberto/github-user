@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
                                 }
                                 is Resource.Error -> {
                                     binding.progressBar.visibility = View.GONE
-                                    binding.viewError.root.visibility = View.VISIBLE
+                                    binding.viewError.tvError.visibility = View.VISIBLE
                                     binding.viewError.tvError.text =
                                         users.message ?: getString(R.string.something_wrong)
                                 }
